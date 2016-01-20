@@ -8,7 +8,7 @@ http://fedosejev.github.io/shopping-list-react/
 
 ### Shopping List with Flux
 
-+ https://github.com/fedosejev/shopping-list-react-flux
+https://github.com/fedosejev/shopping-list-react-flux
 
 ## Install
 
