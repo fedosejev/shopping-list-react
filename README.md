@@ -6,6 +6,10 @@ Basic shopping list implemented with React.js (`v0.14`) and Twitter Bootstrap (`
 
 http://fedosejev.github.io/shopping-list-react/
 
+### Shopping List with Flux
+
++ https://github.com/fedosejev/shopping-list-react-flux
+
 ## Install
 
 `npm install`
