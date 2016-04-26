@@ -40,19 +40,21 @@ var ShoppingList = React.createClass({
     var items = this.state.list;
 
     return (
-      <div className="row">
-        <div className="col-sm-6">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6">
 
-          <List 
-            items={items}
-            removeListItem={this.removeListItem} 
-            removeAllListItems={this.removeAllListItems} />
-            
-        </div>
-        <div className="col-sm-6">
+            <List 
+              items={items}
+              removeListItem={this.removeListItem} 
+              removeAllListItems={this.removeAllListItems} />
+              
+          </div>
+          <div className="col-sm-6">
 
-          <AddListItem addListItem={this.addListItem} />
-        
+            <AddListItem addListItem={this.addListItem} />
+          
+          </div>
         </div>
       </div>
     );
