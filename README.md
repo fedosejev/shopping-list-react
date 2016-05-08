@@ -8,8 +8,8 @@ http://fedosejev.github.io/shopping-list-react/
 
 ### Other versions
 
-+ [ES2015](https://github.com/fedosejev/shopping-list-react-es2015)
-+ [With Flux (ES5)](https://github.com/fedosejev/shopping-list-react-flux)
++ [React.js with ES2015](https://github.com/fedosejev/shopping-list-react-es2015)
++ [React.js with Flux (ES5)](https://github.com/fedosejev/shopping-list-react-flux)
 
 ## Install
 
