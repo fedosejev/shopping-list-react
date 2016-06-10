@@ -1,13 +1,11 @@
 var React = require('react');
 
-var ListItemDescription = React.createClass({
-  render: function () {
+var ListItemDescription = function (props) {
     return (
       <div className="panel-body">
-        {this.props.description}
+        {props.description}
       </div>
     );
-  }
-});
+};
 
 module.exports = ListItemDescription;
