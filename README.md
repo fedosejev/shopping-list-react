@@ -10,6 +10,7 @@ http://fedosejev.github.io/shopping-list-react/
 
 + [React.js and ES2015](https://github.com/fedosejev/shopping-list-react-es2015)
 + [React.js and Flux (ES5)](https://github.com/fedosejev/shopping-list-react-flux)
++ [React.js, Redux and ES2015](https://github.com/fedosejev/shopping-list-react-redux)
 
 ## Install
 
@@ -28,10 +29,6 @@ http://fedosejev.github.io/shopping-list-react/
 ## Run
 
 Open `build/index.html` in a web browser.
-
-## Questions?
-
-You can ask Artemij anything on Snapchat - Art's username is `artemij`.
 
 ## License
 
