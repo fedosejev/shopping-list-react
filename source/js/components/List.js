@@ -1,7 +1,7 @@
 var React = require('react');
-var ListItem = require('./ListItem.jsx');
-var ListHeader = require('./ListHeader.jsx');
-var EmptyList = require('./EmptyList.jsx');
+var ListItem = require('./ListItem');
+var ListHeader = require('./ListHeader');
+var EmptyList = require('./EmptyList');
 
 var List = React.createClass({
 

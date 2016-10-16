@@ -14,7 +14,12 @@ http://fedosejev.github.io/shopping-list-react/
 
 ## Install
 
-`npm install`
+1. `npm install -g yarn`
+2. `yarn install`
+
+#### What is Yarn?
++ https://code.facebook.com/posts/1840075619545360
++ https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm
 
 ## Build
 
@@ -29,6 +34,13 @@ http://fedosejev.github.io/shopping-list-react/
 ## Run
 
 Open `build/index.html` in a web browser.
+
+## Author
+
+Artemij Fedosejev
++ [Website](http://artemij.com)
++ [LinkedIn](https://www.linkedin.com/in/artemij)
++ [React.Tips](http://react.tips)
 
 ## License
 

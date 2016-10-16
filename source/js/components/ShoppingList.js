@@ -1,6 +1,6 @@
 var React = require('react');
-var List = require('./List.jsx');
-var AddListItem = require('./AddListItem.jsx');
+var List = require('./List');
+var AddListItem = require('./AddListItem');
 
 var ShoppingList = React.createClass({
   

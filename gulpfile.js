@@ -7,7 +7,7 @@ var htmlMinifier = require('gulp-html-minifier');
 var uglify = require('gulp-uglify');
 
 gulp.task('build-js-for-development', function () {
-  return browserify('./source/js/app.jsx')
+  return browserify('./source/js/index.js')
         .transform('babelify', { presets: ['react'] })
         .bundle()
         .pipe(vinylSourceStream('shopping-list.js'))
@@ -15,7 +15,7 @@ gulp.task('build-js-for-development', function () {
 });
 
 gulp.task('build-js-for-production', function () {
-  return browserify('./source/js/app.jsx')
+  return browserify('./source/js/index.js')
         .transform('babelify', { presets: ['react'] })
         .bundle()
         .pipe(vinylSourceStream('shopping-list.js'))
@@ -38,7 +38,7 @@ gulp.task('build-html-for-production', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('./source/js/**/*.{jsx,js}', ['build-js-for-development']);
+  gulp.watch('./source/js/**/*.js', ['build-js-for-development']);
   gulp.watch('./source/**/*.html', ['build-html-for-development']);
 });
 
