@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build content and static files
-gulp build-for-production
+npm run build
 
 # Commit and push
 git add .

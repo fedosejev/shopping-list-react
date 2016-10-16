@@ -2,15 +2,11 @@
 
 Basic shopping list implemented with React.js (`v15`) and Twitter Bootstrap (`v3`).
 
+Uses Webpack, [Yarn](https://code.facebook.com/posts/1840075619545360).
+
 ### Live
 
 http://fedosejev.github.io/shopping-list-react/
-
-### Other versions
-
-+ [React.js and ES2015](https://github.com/fedosejev/shopping-list-react-es2015)
-+ [React.js and Flux (ES5)](https://github.com/fedosejev/shopping-list-react-flux)
-+ [React.js, Redux and ES2015](https://github.com/fedosejev/shopping-list-react-redux)
 
 ## Install
 
@@ -21,19 +17,20 @@ http://fedosejev.github.io/shopping-list-react/
 + https://code.facebook.com/posts/1840075619545360
 + https://scotch.io/tutorials/yarn-package-manager-an-improvement-over-npm
 
-## Build
-
-#### In development environment:
-
-`npm run build-for-development`
-
-#### In production environment:
-
-`npm run build-for-production`
-
 ## Run
 
-Open `build/index.html` in a web browser.
+1. `npm start`
+2. Open `http://localhost:8080` in a web browser.
+
+## Build
+
+`npm run build`
+
+### Other versions
+
++ [React.js and ES2015](https://github.com/fedosejev/shopping-list-react-es2015)
++ [React.js and Flux (ES5)](https://github.com/fedosejev/shopping-list-react-flux)
++ [React.js, Redux and ES2015](https://github.com/fedosejev/shopping-list-react-redux)
 
 ## Author
 
